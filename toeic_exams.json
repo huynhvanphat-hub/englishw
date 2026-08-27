@@ -1,0 +1,85 @@
+{
+  "grammar": [
+    { "type": "grammar", "q": "The manager asked us to ___ the report before Friday.", "a": ["submit", "submits", "submitting", "submitted"], "correct": 0, "whyVi": "Cấu trúc 'ask someone to DO something' yêu cầu động từ nguyên thể." },
+    { "type": "grammar", "q": "All employees must ___ the safety rules.", "a": ["follow", "follows", "following", "followed"], "correct": 0, "whyVi": "Sau 'must', dùng động từ nguyên mẫu." },
+    { "type": "grammar", "q": "The new policy ___ by the board of directors yesterday.", "a": ["was approved", "approved", "approves", "is approving"], "correct": 0, "whyVi": "Câu bị động trong quá khứ: was/were + V3/ed." },
+    { "type": "grammar", "q": "Mr. Smith requested that the team ___ the project early.", "a": ["finish", "finished", "finishing", "finishes"], "correct": 0, "whyVi": "Câu giả định (Subjunctive) với 'request that + S + V(bare)'." },
+    { "type": "grammar", "q": "___ you need further assistance, please contact our support team.", "a": ["Should", "If", "When", "Because"], "correct": 0, "whyVi": "Đảo ngữ câu điều kiện loại 1 với 'Should'." },
+    { "type": "grammar", "q": "The CEO suggested ___ the marketing strategy.", "a": ["changing", "change", "to change", "changed"], "correct": 0, "whyVi": "Sau 'suggest' dùng V-ing." },
+    { "type": "grammar", "q": "We are looking forward to ___ from you soon.", "a": ["hearing", "hear", "heard", "hears"], "correct": 0, "whyVi": "Sau 'look forward to' dùng V-ing." },
+    { "type": "grammar", "q": "The budget proposal will be ___ by Friday.", "a": ["completed", "completes", "completing", "complete"], "correct": 0, "whyVi": "Câu bị động ở thì tương lai đơn: will be + V3/ed." },
+    { "type": "grammar", "q": "Despite ___ tired, he finished the report.", "a": ["being", "be", "to be", "been"], "correct": 0, "whyVi": "Sau 'despite' dùng V-ing hoặc cụm danh từ." },
+    { "type": "grammar", "q": "He is the person ___ won the award.", "a": ["who", "whom", "which", "whose"], "correct": 0, "whyVi": "Đại từ quan hệ 'who' thay thế cho danh từ chỉ người làm chủ ngữ." }
+  ],
+  "tenses": [
+    { "type": "tenses", "q": "She ___ for the company since 2019.", "a": ["has worked", "worked", "is working", "works"], "correct": 0, "whyVi": "'Since 2019' → thì hiện tại hoàn thành: has worked." },
+    { "type": "tenses", "q": "By the time we arrive, the presentation ___.", "a": ["will have started", "starts", "started", "has started"], "correct": 0, "whyVi": "'By the time + hiện tại' → Tương lai hoàn thành (will have + V3)." },
+    { "type": "tenses", "q": "We ___ a new product line next month.", "a": ["are launching", "launched", "launch", "have launched"], "correct": 0, "whyVi": "'Next month' và kế hoạch chắc chắn → Hiện tại tiếp diễn chỉ tương lai." },
+    { "type": "tenses", "q": "I ___ this book when the phone rang.", "a": ["was reading", "read", "am reading", "have read"], "correct": 0, "whyVi": "Hành động đang diễn ra trong quá khứ bị cắt ngang (was/were + V-ing)." },
+    { "type": "tenses", "q": "The train ___ at 8:00 AM every day.", "a": ["leaves", "leave", "is leaving", "left"], "correct": 0, "whyVi": "Lịch trình cố định dùng Hiện tại đơn (leaves)." },
+    { "type": "tenses", "q": "They ___ each other for 10 years.", "a": ["have known", "knew", "know", "are knowing"], "correct": 0, "whyVi": "'For 10 years' với động từ trạng thái 'know' → Hiện tại hoàn thành." },
+    { "type": "tenses", "q": "I will call you as soon as I ___ the results.", "a": ["get", "will get", "got", "am getting"], "correct": 0, "whyVi": "Mệnh đề trạng ngữ chỉ thời gian tương lai dùng Hiện tại đơn." },
+    { "type": "tenses", "q": "He ___ the document before he sent the email.", "a": ["had saved", "saved", "has saved", "was saving"], "correct": 0, "whyVi": "Hành động xảy ra trước hành động khác trong quá khứ → Quá khứ hoàn thành." },
+    { "type": "tenses", "q": "Look! It ___ outside.", "a": ["is raining", "rains", "rained", "has rained"], "correct": 0, "whyVi": "Dấu hiệu 'Look!' → Hiện tại tiếp diễn." },
+    { "type": "tenses", "q": "We ___ to New York three times so far.", "a": ["have been", "went", "were", "go"], "correct": 0, "whyVi": "'So far' (cho đến nay) → Hiện tại hoàn thành." }
+  ],
+  "prepositions": [
+    { "type": "prepositions", "q": "The meeting is scheduled ___ 3 p.m. on Tuesday.", "a": ["at", "in", "on", "for"], "correct": 0, "whyVi": "Dùng 'at' trước giờ cụ thể (at 3 p.m.)." },
+    { "type": "prepositions", "q": "Our new branch will open ___ January.", "a": ["in", "on", "at", "to"], "correct": 0, "whyVi": "Dùng 'in' trước tháng." },
+    { "type": "prepositions", "q": "Please place the document ___ the desk.", "a": ["on", "in", "at", "over"], "correct": 0, "whyVi": "Dùng 'on' chỉ vị trí trên bề mặt (on the desk)." },
+    { "type": "prepositions", "q": "He has been waiting here ___ two hours.", "a": ["for", "since", "during", "in"], "correct": 0, "whyVi": "'For' + khoảng thời gian (for two hours)." },
+    { "type": "prepositions", "q": "The office is located ___ 5th Avenue.", "a": ["on", "in", "at", "by"], "correct": 0, "whyVi": "Dùng 'on' trước tên đường." },
+    { "type": "prepositions", "q": "She is very good ___ solving complex problems.", "a": ["at", "in", "with", "about"], "correct": 0, "whyVi": "Cấu trúc 'good at + V-ing'." },
+    { "type": "prepositions", "q": "We apologize ___ the delay in delivery.", "a": ["for", "about", "with", "on"], "correct": 0, "whyVi": "Cấu trúc 'apologize for something'." },
+    { "type": "prepositions", "q": "The company was established ___ 1995.", "a": ["in", "on", "at", "since"], "correct": 0, "whyVi": "Dùng 'in' trước năm." },
+    { "type": "prepositions", "q": "He prefers working ___ night.", "a": ["at", "in", "on", "during"], "correct": 0, "whyVi": "Dùng 'at night' (cụm từ cố định)." },
+    { "type": "prepositions", "q": "The report was written ___ the new manager.", "a": ["by", "with", "from", "of"], "correct": 0, "whyVi": "Chủ thể thực hiện hành động trong câu bị động dùng 'by'." }
+  ],
+  "comparisons": [
+    { "type": "comparisons", "q": "Of the three proposals, hers is the ___.", "a": ["most practical", "more practical", "practical", "practically"], "correct": 0, "whyVi": "So sánh nhất trong 3 đối tượng → the most practical." },
+    { "type": "comparisons", "q": "This year's sales are ___ than last year's.", "a": ["higher", "highest", "high", "highly"], "correct": 0, "whyVi": "Có từ 'than' nên dùng so sánh hơn (higher)." },
+    { "type": "comparisons", "q": "This is the ___ building in the city.", "a": ["tallest", "taller", "tall", "most tall"], "correct": 0, "whyVi": "Có mạo từ 'the' và 'in the city' chỉ quần thể → So sánh nhất." },
+    { "type": "comparisons", "q": "He works ___ than anyone else in the team.", "a": ["harder", "more hard", "hardest", "hard"], "correct": 0, "whyVi": "So sánh hơn của trạng từ 'hard' là 'harder'." },
+    { "type": "comparisons", "q": "The new software is much ___ to use than the old one.", "a": ["easier", "easiest", "more easy", "easy"], "correct": 0, "whyVi": "So sánh hơn của tính từ kết thúc bằng 'y' (easy → easier). Dùng 'much' để nhấn mạnh." },
+    { "type": "comparisons", "q": "She is as ___ as her sister.", "a": ["smart", "smarter", "smartest", "smartly"], "correct": 0, "whyVi": "Cấu trúc so sánh bằng 'as + adj/adv + as'." },
+    { "type": "comparisons", "q": "Please send the report as ___ as possible.", "a": ["soon", "sooner", "soonest", "early"], "correct": 0, "whyVi": "Cụm từ cố định 'as soon as possible'." },
+    { "type": "comparisons", "q": "The ___ you start, the earlier you will finish.", "a": ["sooner", "soonest", "soon", "more soon"], "correct": 0, "whyVi": "Cấu trúc so sánh kép 'The + so sánh hơn..., the + so sánh hơn...'." }
+  ],
+  "cloze": [
+    { "type": "cloze", "q": "If the client agrees, we will ___ the contract tomorrow.", "a": ["sign", "signs", "signing", "signed"], "correct": 0, "whyVi": "Sau 'will' dùng động từ nguyên mẫu: sign." },
+    { "type": "cloze", "q": "Please make sure that all files are ___ backed up.", "a": ["properly", "proper", "property", "properties"], "correct": 0, "whyVi": "Cần trạng từ bổ nghĩa cho động từ 'backed up'." },
+    { "type": "cloze", "q": "The ___ of the new product was a huge success.", "a": ["launch", "launches", "launched", "launching"], "correct": 0, "whyVi": "Sau mạo từ 'The' cần một danh từ (launch có thể là danh từ chỉ sự ra mắt)." },
+    { "type": "cloze", "q": "Employees are ___ to wear safety helmets on site.", "a": ["required", "require", "requiring", "requires"], "correct": 0, "whyVi": "Cấu trúc bị động 'be required to do something'." },
+    { "type": "cloze", "q": "The hotel offers a ___ breakfast for all guests.", "a": ["complimentary", "compliment", "complimented", "complimenting"], "correct": 0, "whyVi": "Cần tính từ bổ nghĩa cho 'breakfast'. Complimentary = miễn phí." },
+    { "type": "cloze", "q": "We are currently ___ for a new Marketing Director.", "a": ["recruiting", "recruit", "recruited", "recruits"], "correct": 0, "whyVi": "Thì Hiện tại tiếp diễn: be + V-ing." }
+  ],
+  "reading": [
+    {
+      "type": "reading",
+      "passageText": "To: All Employees\nFrom: HR Department\nDate: May 12\nSubject: Office Relocation\n\nPlease be informed that our main office will be relocating to the new building on 5th Avenue next Monday. All personal belongings must be packed in the provided boxes by this Friday at 5:00 PM. The IT department will disconnect all computers on Friday evening. If you have any questions, please contact HR before Thursday.",
+      "questions": [
+        { "q": "When is the deadline to pack personal belongings?", "a": ["This Friday at 5:00 PM", "Next Monday", "This Thursday", "Friday evening"], "correct": 0, "whyVi": "Đoạn văn ghi rõ: đồ cá nhân phải được đóng gói trước 5:00 PM Thứ Sáu tuần này." },
+        { "q": "Who will disconnect the computers?", "a": ["The IT Department", "The HR Department", "All employees", "The moving company"], "correct": 0, "whyVi": "Đoạn văn nêu rõ: bộ phận IT sẽ ngắt kết nối tất cả máy tính." },
+        { "q": "Where is the office relocating to?", "a": ["5th Avenue", "4th Avenue", "The old building", "IT department"], "correct": 0, "whyVi": "Đoạn văn ghi: 'relocating to the new building on 5th Avenue'." }
+      ]
+    },
+    {
+      "type": "reading",
+      "passageText": "Notice to Customers\n\nStarting September 1st, Green Valley Grocery will extend its opening hours. We will now be open from 7:00 AM to 10:00 PM, Monday through Saturday. On Sundays, our hours will remain the same: 8:00 AM to 8:00 PM. We hope these extended hours will provide you with more flexibility for your shopping needs. Don't forget our special weekend discounts on fresh produce!",
+      "questions": [
+        { "q": "What change is taking place on September 1st?", "a": ["Extended opening hours", "A new store location", "Higher prices", "Closed on Sundays"], "correct": 0, "whyVi": "Thông báo: 'will extend its opening hours' (mở rộng giờ mở cửa)." },
+        { "q": "What time does the store close on Sunday?", "a": ["8:00 PM", "10:00 PM", "7:00 PM", "9:00 PM"], "correct": 0, "whyVi": "Đoạn văn nói: 'On Sundays, our hours will remain the same: 8:00 AM to 8:00 PM'." },
+        { "q": "What is discounted on weekends?", "a": ["Fresh produce", "Bakery items", "Meat", "Dairy products"], "correct": 0, "whyVi": "Cuối đoạn ghi: 'special weekend discounts on fresh produce'." }
+      ]
+    },
+    {
+      "type": "reading",
+      "passageText": "MEMO\nTo: Sales Team\nFrom: Regional Manager\nSubject: Quarterly Meeting\n\nThe Q3 Sales Meeting has been rescheduled from October 10th to October 15th. The venue has also changed to the Grand Hotel conference room. Please ensure all quarterly reports are submitted to my assistant by October 12th at the latest. Attendance is mandatory for all sales representatives.",
+      "questions": [
+        { "q": "What is the new date for the meeting?", "a": ["October 15th", "October 10th", "October 12th", "November 15th"], "correct": 0, "whyVi": "Rescheduled from October 10th to October 15th." },
+        { "q": "Where will the meeting be held?", "a": ["Grand Hotel", "Main Office", "Regional Office", "Online"], "correct": 0, "whyVi": "The venue has changed to the Grand Hotel conference room." },
+        { "q": "What must sales representatives do by October 12th?", "a": ["Submit quarterly reports", "Book a hotel room", "Prepare a presentation", "Email the manager"], "correct": 0, "whyVi": "Ensure all quarterly reports are submitted by October 12th." }
+      ]
+    }
+  ]
+}

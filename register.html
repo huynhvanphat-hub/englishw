@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký Học Tiếng Anh</title>
+    
+    <!-- Import font chữ Inter từ Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Liên kết tới tệp CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <!-- Header của Form -->
+        <header class="form-header">
+            <h1 class="form-title">Bắt Đầu Hành Trình</h1>
+            <p class="form-subtitle">Nâng cao ngữ pháp và từ vựng của bạn mỗi ngày</p>
+        </header>
+        
+        <!-- Khối Form chuyển hướng về trang chủ index.html -->
+        <form class="signup-form" id="registerForm">
+            
+            <!-- Ô nhập liệu 1: Họ và Tên (Floating Label) -->
+            <div class="form-group floating-label-group">
+                <input type="text" id="fullname" class="form-input" placeholder=" " required autocomplete="name">
+                <label for="fullname" class="floating-label">Họ và Tên</label>
+            </div>
+            
+            <!-- Ô nhập liệu 2: Email (Floating Label) -->
+            <div class="form-group floating-label-group">
+                <input type="email" id="email" class="form-input" placeholder=" " required autocomplete="email">
+                <label for="email" class="floating-label">Địa chỉ Email</label>
+            </div>
+            
+            <!-- Ô Dropdown (Select) Tùy chỉnh -->
+            <div class="form-group custom-select-group">
+                <select id="level" class="form-input custom-select" required>
+                    <option value="" disabled selected hidden>Trình độ tiếng Anh</option>
+                    <option value="mat-goc">Mất gốc</option>
+                    <option value="trung-binh">Trung bình khá</option>
+                    <option value="nang-cao">Nâng cao</option>
+                </select>
+                <svg class="select-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            
+            <!-- Nhóm Checkbox Tùy chỉnh -->
+            <div class="form-group checkbox-group-container">
+                <span class="group-label">Mục tiêu học tập</span>
+                <div class="checkbox-group">
+                    <label class="custom-checkbox">
+                        <input type="checkbox" name="goal" value="grammar">
+                        <span class="checkmark"></span>
+                        <span class="checkbox-label">Củng cố Ngữ pháp</span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" name="goal" value="vocab">
+                        <span class="checkmark"></span>
+                        <span class="checkbox-label">Mở rộng Từ vựng</span>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Nút Submit Call-to-Action -->
+            <button type="submit" class="submit-btn">
+                Tham Gia Ngay
+                <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </form>
+    </div>
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const user = {
+                fullname: document.getElementById('fullname').value.trim(),
+                email: document.getElementById('email').value.trim(),
+                level: document.getElementById('level').value,
+                registeredAt: Date.now()
+            };
+            localStorage.setItem('vf-user', JSON.stringify(user));
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
